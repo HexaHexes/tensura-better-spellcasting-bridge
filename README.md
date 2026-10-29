@@ -1,28 +1,24 @@
 # Tensura - Better Spellcasting Bridge
 
 Tensura - Better Spellcasting Bridge lets the Tensura RPG pack's abilities fire
-off the end of a weapon combo: Better Combat's timing, Better Spellcasting's
-chain execution, and Tensura skills, magic and battlewills as the payload.
+off the end of a weapon combo. Better Combat supplies the timing, Better
+Spellcasting the chain execution, and Tensura skills, magic and battlewills are
+the payload.
 
 ## What it does
 
-*(Design phase - no release yet. The open issues on this repository hold the
+*(Design phase, no release yet. The open issues on this repository hold the
 full plan, research tables and open design decisions.)*
 
-- **Combos carry abilities** - chain a weapon combo into a Tensura skill, magic
-  or battlewill, using Better Combat's own swing timing and hit detection.
-- **Eligibility you control** - independent whitelists and blacklists per
-  ability type; passives are excluded by default, blacklists always win.
-- **Payment stays honest** - native cost by default, with per-ability scaled,
-  fixed, free or disabled modes; if the bridge cannot prove the cost was paid,
-  the ability does not fire and no resource is consumed.
-- **Fails safe** - a failed cast lets the ordinary weapon attack through, never
-  double-charges, and never consumes resources twice.
-
-## Getting it in-game
-
-Not yet available - no release has been cut. When the first alpha ships: drop
-the jar in `mods/` alongside its required dependencies.
+- Chain a weapon combo into a Tensura skill, magic or battlewill, using Better
+  Combat's own swing timing and hit detection.
+- **Whitelists and blacklists** are independent per ability type. Passives are
+  excluded by default, and blacklists always win.
+- Native cost applies by default, with per-ability scaled, fixed, free or
+  disabled modes. If the bridge cannot prove the cost was paid, the ability
+  does not fire and no resource is consumed.
+- A failed cast lets the ordinary weapon attack through. The bridge never
+  double-charges and never consumes resources twice.
 
 ## Dependencies
 | | Mod | Why |
@@ -33,6 +29,9 @@ the jar in `mods/` alongside its required dependencies.
 | Required | Tensura Ability Core | Activation, eligibility and payment contracts |
 | Optional | Tensura: Reincarnated | Tensura skills and magic as combo payloads |
 | Optional | Tensura Battlewills | Battlewills as combo payloads |
+
+When the first alpha ships, drop the jar in `mods/` alongside its required
+dependencies.
 
 ## Credits
 - Built on [NeoForge](https://neoforged.net/).
