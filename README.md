@@ -30,9 +30,6 @@ full plan, research tables and open design decisions.)*
 | Optional | Tensura: Reincarnated | Tensura skills and magic as combo payloads |
 | Optional | Tensura Battlewills | Battlewills as combo payloads |
 
-When the first alpha ships, drop the jar in `mods/` alongside its required
-dependencies.
-
 ## Credits
 - Built on [NeoForge](https://neoforged.net/).
 - Builds on [Better Combat](https://www.curseforge.com/minecraft/mc-mods/better-combat)
