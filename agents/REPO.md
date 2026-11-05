@@ -22,6 +22,8 @@ disabled) with strict single-charge guarantees, and safe failure handling.
 - Optional: `tensura`, `tensura_battlewills` - payloads absent when the provider
   is absent; missing adapters stay unavailable even when whitelisted.
 
+**Release plan:** [docs/release-plan.md](https://github.com/HexaHexes/ability-core/blob/main/docs/release-plan.md) - the release train, per-repo checklist, core-before-consumers sequencing and ALPHA_RELEASES state (hub: ability-core).
+
 **Test:** `./gradlew runGameTestServer` - `TensuraBetterSpellcastingBridgeGameTests` (1 test). `expectedTests = 1`
 in `build.gradle` must match the `@GameTest` count.
 
