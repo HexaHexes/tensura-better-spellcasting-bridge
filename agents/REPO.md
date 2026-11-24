@@ -6,8 +6,8 @@ and pulled in verbatim - **never hand-edit it.** Everything in this file is this
 repo's own and is edited freely; keep it aligned with the org rules rather than
 restating them.
 
-**Repo:** `HexaHexes/tensura-better-spellcasting-bridge` - **Mod ID:** `tensura_better_spellcasting_bridge` - **Branch:** `main`
-**Platform:** Minecraft 1.21.1 / NeoForge 21.1.259 / JDK 21 - **Jar:** `build/libs/tensura_better_spellcasting_bridge-<version>.jar`
+**Repo:** `HexaHexes/tensura-better-spellcasting-bridge` · **Mod ID:** `tensura_better_spellcasting_bridge` · **Branch:** `neoforge-1.21.1` (the loader line; this is the default branch - no `main`)
+**Platform:** Minecraft 1.21.1 / NeoForge 21.1.259 / JDK 21 · **Jar:** `build/libs/tensura_better_spellcasting_bridge-neoforge-1.21.1-<version>.jar`
 
 Extends Better Spellcasting's combo-chain integration to Tensura abilities and
 battlewills: combo timing and hit detection reused from Better Combat, trigger
